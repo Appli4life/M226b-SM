@@ -14,15 +14,17 @@ namespace GeoFiguren
         {
 
         }
-
-        public double QuadratFläche()
-        {
-            return base.Multiplikation(base.seiten[0], base.seiten[0]);
-        }
-
         public override string ToString()
         {
             return base.ToString();
+        }
+        public override double Umfang()
+        {
+            return seiten[0] * 4;
+        }
+        public override double Fläche()
+        {
+            return Math.Pow(seiten[0], 2);
         }
     }
 }

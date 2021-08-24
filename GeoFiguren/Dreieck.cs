@@ -14,11 +14,14 @@ namespace GeoFiguren
 
         }
 
-        
 
         public override string ToString()
         {
             return base.ToString();
+        }
+        public override double Fläche()
+        {
+          return (seiten[0] *  Math.Sqrt((seiten[0] * seiten[0]) + (seiten[1]*seiten[1]))) / 2;
         }
     }
 }

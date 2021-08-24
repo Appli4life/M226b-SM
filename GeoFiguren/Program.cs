@@ -31,8 +31,9 @@ namespace GeoFiguren
 
             foreach (var geofig in geomfiguren)
             {
-                //Console.WriteLine(geofig);
+                Console.WriteLine(geofig);
                 Console.WriteLine($"Umfang = {geofig.Umfang()}");
+                Console.WriteLine($"Fläche = {geofig.Fläche()}");
             }
             
 

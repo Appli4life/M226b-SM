@@ -36,6 +36,10 @@ namespace GeoFiguren
 
             return r;
         }
+        public virtual double Fläche()
+        {
+            return 1 + 1;
+        }
 
     }
 }

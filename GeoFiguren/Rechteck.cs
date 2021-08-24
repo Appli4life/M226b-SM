@@ -13,12 +13,6 @@ namespace GeoFiguren
         {
 
         }
-
-        public double RechteckFläche()
-        {
-            return this.Multiplikation(base.seiten[0], base.seiten[1]);
-        }
-
         protected double Multiplikation(double a, double b)
         {
             return a * b;
@@ -27,6 +21,16 @@ namespace GeoFiguren
         public override string ToString()
         {
             return base.ToString();
+        }
+        public override double Umfang()
+        {
+            double a = seiten.Sum();
+            return a * 2;
+        }
+
+        public override double Fläche()
+        {
+            return seiten[0] * seiten[1];
         }
     }
 }
