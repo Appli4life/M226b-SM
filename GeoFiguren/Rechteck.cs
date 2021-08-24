@@ -23,5 +23,10 @@ namespace GeoFiguren
         {
             return a * b;
         }
+
+        public override string ToString()
+        {
+            return base.ToString();
+        }
     }
 }

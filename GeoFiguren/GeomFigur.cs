@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace GeoFiguren
 {
+    // Abstrakte Klasse, aus der man keine Objekte instanziieren kann. Sie ist nur für die Vererbung da.
     public abstract class GeomFigur
     {
         protected double[] seiten = new double[3];
@@ -15,7 +16,7 @@ namespace GeoFiguren
             seiten = s;
         }
 
-        public string informationen()
+        public override string ToString()
         {
             string result = "Seitenlängen: ";
             foreach (var d in seiten)
@@ -24,5 +25,17 @@ namespace GeoFiguren
             }
             return result;
         }
+
+        public virtual double Umfang()
+        {
+            double r = 0;
+            foreach (var item in seiten)
+            {
+                r += item;
+            }
+
+            return r;
+        }
+
     }
 }

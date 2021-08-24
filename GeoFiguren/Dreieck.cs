@@ -9,14 +9,16 @@ namespace GeoFiguren
     public class Dreieck : GeomFigur
     {
         public Dreieck(double[] s)
-            :base(s)
+            : base(s)
         {
 
         }
 
-        public double Umfang()
+        
+
+        public override string ToString()
         {
-            return seiten[0] + seiten[1] + seiten[2];
+            return base.ToString();
         }
     }
 }
