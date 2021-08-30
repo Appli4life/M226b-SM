@@ -6,12 +6,13 @@ using System.Threading.Tasks;
 
 namespace SaalplanSD
 {
-    class Program
+    public class Verkauf
     {
-        static void Main(string[] args)
+        public void buchen(Platz p)
         {
-            Platz aPlatz = new Platz();
-
+            Bestellung aBestellung = new Bestellung();
+            aBestellung.erstelleRechnung(p);
         }
+
     }
 }

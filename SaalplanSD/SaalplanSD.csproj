@@ -43,8 +43,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Bestellung.cs" />
+    <Compile Include="Platz.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Saalplan.cs" />
+    <Compile Include="Verkauf.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
