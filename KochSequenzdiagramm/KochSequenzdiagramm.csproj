@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{5B937981-1990-45D0-97C5-648BB83D127A}</ProjectGuid>
+    <ProjectGuid>{B9721599-6B69-411E-BDDE-631FB642D713}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>GeoFiguren</RootNamespace>
-    <AssemblyName>GeoFiguren</AssemblyName>
+    <RootNamespace>KochSequenzdiagramm</RootNamespace>
+    <AssemblyName>KochSequenzdiagramm</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -33,7 +33,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="PresentationFramework" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -44,17 +43,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Dreieck.cs" />
-    <Compile Include="GeomFigur.cs" />
-    <Compile Include="IDraw.cs" />
+    <Compile Include="Herd.cs" />
+    <Compile Include="Koch.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Rechteck.cs" />
-    <Compile Include="Quadrat.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="ClassDiagram1.cd" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
