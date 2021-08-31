@@ -12,7 +12,6 @@ namespace SaalplanSD
         {
             Saalplan aSaalplan = new Saalplan();
             aSaalplan.IstFrei(p);
-
         }
 
         public void erstelleRechnung(Platz p)

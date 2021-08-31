@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace T1_Konsole
+﻿namespace T1_Konsole
 {
     /// <summary>
     /// Abstrakte Klasse Person
@@ -37,8 +31,6 @@ namespace T1_Konsole
             wohnt = adresse;
             Name = name;
             Email_Adresse = email;
-        }
-
-      
+        }   
     }
 }
