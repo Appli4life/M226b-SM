@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="SaalplanSD.Bestellung">
+    <Position X="3.5" Y="1" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bestellung.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SaalplanSD.Platz">
+    <Position X="7.25" Y="1" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAA=</HashCode>
+      <FileName>Platz.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SaalplanSD.Program">
+    <Position X="11.5" Y="1.25" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SaalplanSD.Saalplan">
+    <Position X="4.75" Y="3.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAgAA=</HashCode>
+      <FileName>Saalplan.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SaalplanSD.Verkauf">
+    <Position X="9.75" Y="3.25" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAA=</HashCode>
+      <FileName>Verkauf.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
