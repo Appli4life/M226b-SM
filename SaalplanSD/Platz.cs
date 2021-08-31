@@ -13,9 +13,9 @@ namespace SaalplanSD
             Bestellung aBestellung = new Bestellung();
             aBestellung.kaufen(this);
         }
-        public void bestätigen(bool)
+        public void bestätigen(bool a)
         {
-
+            
         }
 
     }
