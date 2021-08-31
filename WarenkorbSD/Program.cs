@@ -13,6 +13,7 @@ namespace WarenkorbSD
             
             Kunde k = new Kunde();
             Console.WriteLine(k.summe);
+            Console.WriteLine(k.wk.b.liste.First().Name);
             Console.ReadLine();
             
         }

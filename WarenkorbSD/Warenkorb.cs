@@ -15,8 +15,7 @@ namespace WarenkorbSD
 
         public double ZurKasse()
         {
-            
-            
+           
             foreach (var item in liste)
             {
                 gesamtzahl =  b.Artikelhinzufügen(item, 5);

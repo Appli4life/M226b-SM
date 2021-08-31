@@ -16,8 +16,6 @@ namespace WarenkorbSD
 
             summe = wk.ZurKasse();
 
-           
-           
         }
 
     }

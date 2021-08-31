@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="WarenkorbSD.Kunde">
+    <Position X="2.25" Y="0.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>Kunde.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WarenkorbSD.Warenkorb">
+    <Position X="4" Y="3.75" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAQAAAAAAAAAgAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Warenkorb.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="liste" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="WarenkorbSD.Zahlung">
+    <Position X="12.5" Y="3" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAA=</HashCode>
+      <FileName>Zahlung.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WarenkorbSD.Bestellung">
+    <Position X="6.75" Y="1" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAQAAACEAAAAAAAAAAAAAAAAAAAAAAAAADAAA=</HashCode>
+      <FileName>Bestellung.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="liste" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="WarenkorbSD.Artikel">
+    <Position X="12.5" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAQAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Artikel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
