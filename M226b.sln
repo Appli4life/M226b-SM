@@ -27,6 +27,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KochSequenzdiagramm", "Koch
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SaalplanSD", "SaalplanSD\SaalplanSD.csproj", "{60EB6D90-37D6-4D85-B734-A012A75C8CF5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WarenkorbSD", "WarenkorbSD\WarenkorbSD.csproj", "{18F65342-2484-45F5-9278-70DE1B32B664}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -65,6 +67,10 @@ Global
 		{60EB6D90-37D6-4D85-B734-A012A75C8CF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{60EB6D90-37D6-4D85-B734-A012A75C8CF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{60EB6D90-37D6-4D85-B734-A012A75C8CF5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18F65342-2484-45F5-9278-70DE1B32B664}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18F65342-2484-45F5-9278-70DE1B32B664}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18F65342-2484-45F5-9278-70DE1B32B664}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18F65342-2484-45F5-9278-70DE1B32B664}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -78,6 +84,7 @@ Global
 		{FE71125E-7C8B-4B24-88E6-233D2348475B} = {A6F394AD-8D09-4240-8247-D3CD4148EDE3}
 		{B9721599-6B69-411E-BDDE-631FB642D713} = {A6F394AD-8D09-4240-8247-D3CD4148EDE3}
 		{60EB6D90-37D6-4D85-B734-A012A75C8CF5} = {A6F394AD-8D09-4240-8247-D3CD4148EDE3}
+		{18F65342-2484-45F5-9278-70DE1B32B664} = {6B46D122-F5C4-4410-B7D3-54DA28D8B8BC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {FB5DCDE9-D529-454D-B5E8-2772E6C83365}
